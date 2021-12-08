@@ -163,6 +163,7 @@ html {
 .left-image img,
 .right-image img {
     border-radius: 5px;
+    width: 400px;
 }
 
 .right-image-post h4,
@@ -402,7 +403,6 @@ input[name=subject] {
 
     body {
         margin: 0;
-        width: 100vh;
     }
 
     /* Menu */
@@ -414,21 +414,15 @@ input[name=subject] {
     html {
         scroll-behavior: smooth;
     }
-    .container {
-        margin: auto;
-        max-width: 1140px;
-    }
     /** Side-Bar Menu */
-    .responsive-nav{
-        padding-left: 50px;
-    }
+
   
     /*section*/
     
     .section {
         color: #fff;
-        width: 55%;
-        left: 35px;
+        width: 100%;
+        left: 0;
         position: relative;
         min-height: 100vh;
         padding-bottom: 80px;
