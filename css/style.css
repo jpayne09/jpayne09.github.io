@@ -21,7 +21,7 @@ body {
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 .container {
     margin: auto;
@@ -82,7 +82,7 @@ html {
 }
 
 .main-nav a:hover:not(.active){
-    background-color: #555;
+    background-color: #E07C24;
     color: white;
 }
 /*section*/
@@ -193,10 +193,6 @@ html {
     margin: 10px;
 }
 
-.row {
-    display: grid;
-    grid-template-columns: 400px 400px;
-}
 
 
 /*Services */
@@ -395,9 +391,19 @@ input[name=subject] {
 #contact input{
     background-color: rgba(250,250,250,0.1);
 }
+
+/**Desktop only screens */
+@media only screen and (min-width: 992px){
+
+    .row {
+        display: grid;
+        grid-template-columns: 400px 400px;
+    }
+    
+}
 /* Media */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
     
     /* Basic*/
 
@@ -454,5 +460,5 @@ input[name=subject] {
     }
     
     
-    
+
 }
